@@ -22,7 +22,7 @@
 #################################################
 
 #Please select IP type
-IPtype=1  #1.WAN 2.LAN 3.IPv6
+IPtype=3  #1.WAN 2.LAN 3.IPv6
 #---------------------
 if [ $IPtype = '3' ]; then
     record_type='AAAA'
